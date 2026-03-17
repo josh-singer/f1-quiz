@@ -18,7 +18,7 @@ interface Result {
 export default function Home() {
   const [state, setState] = useState<State>("intro");
   const [currentQ, setCurrentQ] = useState(0);
-  const [answers, setAnswers] = useState<string[]>(Array(8).fill(""));
+  const [answers, setAnswers] = useState<string[]>(Array(7).fill(""));
   const [currentAnswer, setCurrentAnswer] = useState("");
   const [result, setResult] = useState<Result | null>(null);
   const [error, setError] = useState<string | null>(null);
@@ -84,7 +84,7 @@ export default function Home() {
             Which F1 Driver<br />Are You?
           </h1>
           <p className="text-gray-400 text-lg mb-10">
-            8 questions. One driver. Zero mercy.
+            You think you're a Hamilton, but you might be a Stroll.
           </p>
           <button
             onClick={handleStart}
@@ -127,6 +127,10 @@ export default function Home() {
             placeholder="Type your answer..."
             rows={4}
             autoFocus
+            autoComplete="new-password"
+            autoCorrect="off"
+            autoCapitalize="off"
+            spellCheck={false}
             className="w-full bg-white/5 border border-white/10 rounded-2xl px-4 py-3 text-white placeholder-white/30 resize-none outline-none focus:border-white/30 transition-colors text-base"
           />
 

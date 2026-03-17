@@ -154,12 +154,11 @@ export const DRIVERS: Driver[] = [
 ];
 
 export const QUESTIONS = [
+  "You got P2. You're soaked with champagne. P1 is doing an interview. What do you do?",
+  "Where do you go during your off week?",
+  "You are instructed to let your teammate pass. What do you do?",
   "It's lap 1, turn 1. Verstappen is Verstappening as you try for the inside corner. What do you do?",
-  "Box box or YOLO?",
+  "Box Box or YOLO?",
   "You qualify P7. How do you feel?",
-  "It starts to rain mid-race. Your first thought?",
-  "Your instructions are to let your teammate pass in the interest of the Constructor's Championship. What do you think?",
-  "You got P2. You're soaking wet from champagne. The P1 driver is already doing a TV interview. What do you do?",
   "You get cut out of the edit in Drive to Survive. What do you do?",
-  "Where do you go on your day off?",
 ];
