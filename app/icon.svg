@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <!-- Body: taller on left, tapers right -->
+  <polygon points="3,8 14,8 29,12 29,20 3,20" rx="2" fill="#DC0000"/>
+  <!-- Wheels -->
+  <circle cx="8" cy="20" r="4" fill="#1a1a1a"/>
+  <circle cx="24" cy="20" r="4" fill="#1a1a1a"/>
+</svg>
